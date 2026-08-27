@@ -73,13 +73,12 @@ a { color: inherit; text-decoration: none; }
   content: "";
   position: absolute;
   z-index: -1;
-  width: 520px;
+  width: 620px;
   aspect-ratio: 1;
-  right: -150px;
-  bottom: -365px;
-  border: 1px solid rgba(255,255,255,.42);
+  right: -190px;
+  bottom: -430px;
   border-radius: 50%;
-  box-shadow: 0 0 0 54px rgba(255,255,255,.11), 0 0 0 108px rgba(255,255,255,.09), 0 0 0 162px rgba(255,255,255,.07);
+  background: repeating-radial-gradient(circle at center, transparent 0 55px, rgba(255,255,255,.36) 56px 58px, transparent 59px 112px);
 }
 .hero h1 {
   max-width: 850px;
@@ -225,7 +224,7 @@ a { color: inherit; text-decoration: none; }
   .brand { font-size: 24px; }
   .nav-links { justify-content: flex-start; gap: 18px; font-size: 14px; }
   .hero { margin-top: 16px; padding: 52px 28px 58px; border-radius: 22px 22px 0 0; }
-  .hero::after { width: 340px; right: -190px; bottom: -265px; }
+  .hero::after { width: 430px; right: -225px; bottom: -315px; }
   .destination-rail { grid-template-columns: 1fr; margin-bottom: 48px; border-radius: 0 0 20px 20px; }
   .destination { min-height: 250px; padding: 32px 28px; }
   .destination + .destination { border-left: 0; border-top: 1px solid var(--line); }
